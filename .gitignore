@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# If you're using the database SQLite
+db.sqlite3
+
+# Prevent files related to Django to be ignored
+!pantryletics/__init__.py
+!pantryletics/settings.py
+!pantryletics/urls.py
+!pantryletics/wsgi.py
+!pantryletics/asgi.py
+!app/admin.py
+!app/apps.py
+!app/models.py
+!app/tests.py
+!app/views.py
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*~
+.cache
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PIP
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Other standard Python files
+*.DS_Store
+*.env
+*.venv
+*.env.bak
+*.venv.bak
+*.env.bkp
+*.venv.bkp
+*.env.local
+*.venv.local
+env.bak/
+venv.bak/
+*.log
+*.pot
+*.swp
+*.swo
+*.pyo
+*.pyc
+*.pyd
+*.pylintrc
+*pyproject.toml
+__pycache__/
+*.pypkg
+.pylint.d/
+.po
+.pytest_cache/
+__pypackages__/
